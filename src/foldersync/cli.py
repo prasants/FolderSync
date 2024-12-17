@@ -1,4 +1,4 @@
-"""Command-line interface for FolderClone."""
+"""Command-line interface for FolderSync."""
 
 import argparse
 from .core import sync_directories
@@ -6,7 +6,7 @@ from .core import sync_directories
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Synchronise directory structures with FolderClone."
+        description="Synchronise directory structures with FolderSync."
     )
     parser.add_argument("src", help="Source directory.")
     parser.add_argument("dst", help="Destination directory.")

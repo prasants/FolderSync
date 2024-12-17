@@ -1,7 +1,7 @@
 import os
 import shutil
 import tempfile
-from folderclone.core import sync_directories
+from foldersync.core import sync_directories
 
 
 def test_sync_directories():
